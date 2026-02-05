@@ -1,6 +1,6 @@
-1. Installing Mobexler.ova
-2. check integrity with "sha256sum" command.
-3. Attendre l'import.3. Attendre l'import.3. Attendre l'import.
+1. Installation de Mobexler.ova
+2. Vérifier l'intégrité avec la commande "sha256sum".
+3. Attendre l'importation.
 
 ---
 
@@ -27,11 +27,13 @@ ip a
 ![ip a's output](https://github.com/user-attachments/assets/736d6a79-5ce2-47c7-a815-abc8679bb14c) 
 
 # Vérification de DNS et de PING : 
+On teste la connectivité vers Google pour valider l'accès internet et la résolution DNS.
  ![ip route and ping's output](https://github.com/user-attachments/assets/f3cc19e5-78a1-485c-bb45-9cd88c562643) 
 
 # SNAPSHOT : 
+On sauvegarde l'état propre de la machine virtuelle avant de commencer les manipulations.
  ![SNAPSHOT](https://github.com/user-attachments/assets/03c70a0b-f20c-41da-9539-6aa00375a0b2) 
 
-
 # Prépare la cible Android :
+On vérifie que la machine détecte bien le périphérique Android via ADB.
  ![adb's output](https://github.com/user-attachments/assets/5dd15f2e-a8c3-4a1b-83aa-d58be756befc) 
