@@ -20,5 +20,18 @@ un deuxième Adapter de type "Host-only".
 > sudo ip link set enp0s8 up 
 > ~~~
 
+~~~sh 
+ip a 
+~~~
+
+![ip a's output](https://github.com/user-attachments/assets/736d6a79-5ce2-47c7-a815-abc8679bb14c) 
+
+# Vérification de DNS et de PING : 
+ ![ip route and ping's output](https://github.com/user-attachments/assets/f3cc19e5-78a1-485c-bb45-9cd88c562643) 
+
+# SNAPSHOT : 
+ ![SNAPSHOT](https://github.com/user-attachments/assets/03c70a0b-f20c-41da-9539-6aa00375a0b2) 
 
 
+# Prépare la cible Android :
+ ![adb's output](https://github.com/user-attachments/assets/5dd15f2e-a8c3-4a1b-83aa-d58be756befc) 
